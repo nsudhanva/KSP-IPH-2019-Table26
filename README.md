@@ -14,21 +14,22 @@ An end to end SaaS police Beat Management System for the Karnataka State Police 
 * mobile - contains mobile application - React Native
 * ml - contains machine learning APIs - Python, Tensorflow
 
-**Note: ** Originally these repos were private and were part of a different account. We have moved it here for the purpose of hackathon
+**Note:** Originally these repos were private and were part of a different account. We have moved it here for the purpose of hackathon
 
 # Tools
 
 * Node.js v12 for backend
 * React.js v16 for front-end
 * React Native for mobile application
+* Python, Flask, Tensorflow for Machine Learning, Production APIs
 
-# Web App 
+# Web App
 
 ## Development
 
-* ```npm run dev``` with ```concurrently``` and ```nodemon```
+* ```npm run dev``` with ```concurrently``` and ```nodemon``` installed globally
 
-## Production
+## Production: Deployed [here](https://india-police.herokuapp.com)
 
 * ```npm install``` in the root directory
 
@@ -41,7 +42,7 @@ An end to end SaaS police Beat Management System for the Karnataka State Police 
 
 # Python API
 
-## Production
+## Production: Deployed [here](https://india-police-ml-api.herokuapp.com)
 
 * ```pip install requirements.txt``` in the root directory
 
