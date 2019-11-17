@@ -1,0 +1,13 @@
+a {
+  color: white;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+div.text {
+  color: white;
+}
+
+div div.item a {
+  color: black;
+}

@@ -1,0 +1,76 @@
+html
+  body
+  div#root
+  div.container
+  div
+  div.ui.equal.width.grid
+  div.ui.segment.row
+  div.dataTables_wrapper.dt-bootstrap4 {
+  width: 100%;
+  margin: 70;
+
+  /* margin-right: 40; */
+}
+
+html body div#root div.container div div.ui.equal.width.grid div.row.grey {
+  border-block-end-width: 30ch;
+}
+
+html
+  body
+  div#root
+  div.container
+  div
+  div.ui.equal.width.grid
+  div.ui.segment.row
+  div.dataTables_wrapper.dt-bootstrap4
+  div.row
+  div.col-sm-12
+  div
+  table.table.table-hover.table-striped.dataTable {
+  width: 100%;
+}
+
+html
+  body
+  div#root
+  div.container
+  div
+  div.ui.equal.width.grid
+  div.ui.segment.row
+  div.dataTables_wrapper.dt-bootstrap4
+  div.row
+  div.col-sm-12
+  div
+  table.table.table-hover.table-striped.dataTable
+  thead {
+  background-color: grey;
+  padding: 10px;
+}
+
+html
+  body
+  div#root
+  div.container
+  div
+  div.ui.equal.width.grid
+  div.ui.segment.row
+  div.dataTables_wrapper.dt-bootstrap4
+  div.row
+  div.col-sm-12
+  div {
+  font-size: 20px;
+  width: auto;
+  height: auto;
+  padding: 10px;
+}
+
+.table > tbody:nth-child(2) {
+  padding: 20px;
+}
+
+.table > tbody:nth-child(2) {
+  margin: 20px;
+  padding: 20px;
+  background-color: lightblue;
+}

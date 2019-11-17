@@ -1,0 +1,55 @@
+{
+  "name": "india-police-hackathon-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha",
+    "install": "cd client && npm run build",
+    "server": "nodemon index.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "heroku-prebuild": "npm install",
+    "heroku-postbuild": "cd client && npm install && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nsudhanva/india-police-hackathon-web.git"
+  },
+  "keywords": [
+    "India",
+    "Police",
+    "Beat",
+    "Management"
+  ],
+  "author": "Sudhanva Narayana, Prateek Jaiswal, Shreekar Hegde, Shreedhar Hegde, Aashay Vanpal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nsudhanva/india-police-hackathon-web/issues"
+  },
+  "homepage": "https://github.com/nsudhanva/india-police-hackathon-web#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "jwt-decode": "^2.2.0",
+    "mocha": "^6.2.2",
+    "mongoose": "^5.7.11",
+    "nodemailer": "^6.3.1",
+    "path": "^0.12.7",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-router-dom": "^5.1.2",
+    "react-script": "^2.0.5",
+    "react-scripts": "^3.2.0",
+    "react-select": "^3.0.8",
+    "semantic-ui-react": "^0.88.1",
+    "socket.io": "^2.3.0",
+    "uuid": "^3.3.3",
+    "validator": "^12.0.0",
+    "victory": "^33.1.3"
+  }
+}
