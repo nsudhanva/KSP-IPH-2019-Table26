@@ -44,7 +44,7 @@ An end to end SaaS police Beat Management System for the Karnataka State Police 
 
 ## Production: Deployed [here](https://india-police-ml-api.herokuapp.com)
 
-* ```pip install requirements.txt``` in the root directory
+* ```pip install -r requirements.txt``` in the root directory
 
 
 # Authors
