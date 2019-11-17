@@ -8,19 +8,43 @@ We will be building one mobile application and one web application. The mobile a
 
 An end to end SaaS police Beat Management System for the Karnataka State Police Department. The police will go on "Beats" which are essentially patrolling tasks assigned to each cop or a group of cops for a particular area. Our solution will have a mobile application which will be used by these beat cops for logging their day-to-day activities. The web application will be a monitoring system for the data sent by the mobile application. The web application will also offer analytics, AI powered beat allocation system, secure data management and role based authorization. 
 
+# Repos
+
+* web - contains web application - Node.js React.js
+* mobile - contains mobile application - React Native
+* ml - contains machine learning APIs - Python, Tensorflow
+
+**Note: ** Originally these repos were private and were part of a different account. We have moved it here for the purpose of hackathon
+
 # Tools
 
 * Node.js v12 for backend
 * React.js v16 for front-end
 * React Native for mobile application
 
-# Development
+# Web App 
+
+## Development
 
 * ```npm run dev``` with ```concurrently``` and ```nodemon```
 
-# Production
+## Production
 
 * ```npm install``` in the root directory
+
+
+# Mob App 
+
+## Development
+
+* ```yarn``` 
+
+# Python API
+
+## Production
+
+* ```pip install requirements.txt``` in the root directory
+
 
 # Authors
 * Sudhanva Narayana
